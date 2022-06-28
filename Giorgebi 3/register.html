@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="New folder\giushki.jpg" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelMore</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <main>
+      <aside class="block">
+        <aside class="heads">
+          <h1>TravelMore</h1>
+          <div class="back">
+            <a href="index.html"
+              ><button><i class="fa-solid fa-x"></i></button
+            ></a>
+          </div>
+        </aside>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <input type="text" id="lastname" placeholder="Enter your lastname" />
+        <div class="gio">
+          <aside class="left">
+            <p class="txt">Input your age:</p>
+            <p class="gnd">Choose your gender:</p>
+            <p class="typ">Choose account type:</p>
+          </aside>
+          <aside class="right">
+            <input type="text" id="age" placeholder="Choose age" />
+            <select id="gender">
+              <option value="gender"></option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="გენდერ თხევადი">გენდერ თხევადი</option>
+            </select>
+            <select id="type">
+              <option value="type"></option>
+              <option value="Hotel manager">Hotel manager</option>
+              <option value="წიწაკის უგარეშოდ">წიწაკის უგარეშოდ</option>
+            </select>
+          </aside>
+        </div>
+        <input type="text" id="email" placeholder="Enter your email" />
+        <aside class="eye">
+          <input
+            type="image"
+            src="https://static.thenounproject.com/png/777494-200.png"
+            id="bb"
+            onclick="myFunction()"
+          />
+          <input type="password" value="FakePSW" id="myInput" />
+        </aside>
+        <aside class="btns">
+          <a href="#" class="up" id="upload"><button>Upload picture</button></a>
+          <a href="#" class="registeration" id="reg"
+            ><button>Register</button></a
+          >
+        </aside>
+      </aside>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/af6bc85f41.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="/firebase.js"></script>
+    <script src="/main.js"></script>
+    <script src="/register.js"></script>
+  </body>
+</html>

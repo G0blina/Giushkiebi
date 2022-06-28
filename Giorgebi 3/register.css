@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Hind:wght@300&family=Lato:wght@100&family=Montserrat:wght@100&family=Niconne&family=Oswald:wght@300&family=Roboto:wght@100&family=Smooch+Sans:wght@100&family=Ubuntu&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Cinzel", serif;
+  font-family: "Hind", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Niconne";
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Smooch Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-image: url(https://travelmore-a0675.web.app/bgDay.074ef37336b466c36b93.png);
+  background-size: cover;
+}
+.block {
+  height: 550px;
+  width: 1000px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.block h1 {
+  color: #2574a9;
+  margin-top: 15px;
+}
+.gender {
+  display: flex;
+}
+.type {
+  display: flex;
+}
+.age {
+  display: flex;
+}
+
+#name {
+  width: 90%;
+  height: 35px;
+  border-radius: 0.25rem;
+  border-color: #dad7d7;
+  margin-top: 8px;
+}
+#name::placeholder {
+  font-size: 15px;
+}
+#lastname {
+  width: 90%;
+  height: 35px;
+  border-radius: 0.25rem;
+  border-color: #dad7d7;
+  margin-top: 8px;
+}
+#lastname::placeholder {
+  font-size: 15px;
+}
+#email {
+  width: 90%;
+  height: 35px;
+  border-radius: 0.25rem;
+  border-color: #dad7d7;
+  margin-top: 15px;
+}
+#email::placeholder {
+  font-size: 15px;
+}
+.gio {
+  display: flex;
+  width: 900px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.left p {
+  margin-top: 10px;
+}
+.right input {
+  width: 100%;
+  height: 35px;
+  border-radius: 0.25rem;
+  border-color: #dad7d7;
+  margin-top: 8px;
+}
+.right input::placeholder {
+  font-size: 15px;
+}
+.right select {
+  height: 25px;
+  margin-top: 8px;
+}
+.txt {
+  margin-bottom: 10px;
+}
+.eye {
+  width: 900px;
+  margin-top: 8px;
+}
+.eye a button {
+  width: 40px;
+  height: 35px;
+}
+.eye input {
+  width: 852.2px;
+  height: 35px;
+  border-radius: 0.25rem;
+  border-color: #dad7d7;
+  margin-top: 8px;
+}
+.eye {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.eye #bb {
+  width: 45px;
+  border: none;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btns a button {
+  width: 900px;
+  height: 35px;
+  margin-top: 10px;
+  background-color: #0dcaf0;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+#reg button {
+  background-color: #0d6efd;
+  color: white;
+}
+.block input {
+  border: 1px solid;
+}
+.txt {
+  margin-bottom: 5px;
+}
+.gnd {
+  margin-bottom: -0px;
+}
+.heads {
+  display: flex;
+}
+.heads button {
+  position: absolute;
+  margin-left: 348px;
+  margin-top: 20px;
+  width: 40px;
+  background: none;
+  border: none;
+  height: 20px;
+}
+.block {
+  box-shadow: 0px 0px 30px;
+}
+#age {
+  border: 1px solid;
+}
